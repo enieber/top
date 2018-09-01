@@ -19,8 +19,21 @@
 
 .main {
   display: flex;
+  flex-direction: column;
   flex: 5;
 }
+  
+  .main__title {
+    text-align: center;
+    margin: 1em;
+  }
+
+  .main__section {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fafffd;
+    justify-content: center;
+   }
 
 .menu {
   background: #242F40;
